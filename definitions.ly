@@ -473,7 +473,7 @@ bc =
   \context {
     \Score
     \compressEmptyMeasures
-    \override BarNumber.break-visibility = #'#(#f #t #t)
+    % \override BarNumber.break-visibility = #'#(#f #t #t)
   }
   \context {
     \StaffGroup
@@ -683,6 +683,7 @@ tocLabelLong = #(define-music-function
 
 
 tempoA = \tempoMarkup "Adagio"
+tempoB = \tempoMarkup "Allabreve"
 
 
 \include "notes/vl1.ly"

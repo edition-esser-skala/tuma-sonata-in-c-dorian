@@ -36,7 +36,7 @@
         >>
         \new FiguredBass { \BassFigures }
       >>
-      \layout { }
+      \layout { \context { \Score \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16) } }
       \midi { \tempo 2 = 120 }
     }
   }
