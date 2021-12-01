@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-Bassi = {
+BassoContinuo = {
   \relative c {
     \clef bass
     \key c \dorian \time 4/4 \tempoA

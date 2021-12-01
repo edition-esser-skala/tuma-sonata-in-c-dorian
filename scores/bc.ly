@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "bc")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,9 +12,10 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
+          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
           \BassoContinuo
         }
+        \new FiguredBass { \BassFigures }
       >>
     }
   }

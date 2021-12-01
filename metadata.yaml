@@ -1,16 +1,13 @@
 composer: Tůma, František Ignác Antonín
-title: Sonata
-id: (D-Dl Mus.2968-N-1)
-genre: misc
-scoring: 2 vl, b
+title: Sonata in C dorian
+genre: sonata
+scoring: 2 vl, bc
 sources:
-  1:
+  B1:
     siglum: D-Dl
     shelfmark: Mus.2968-N-1
-    type: manuscript copy
     date: 1725–1745
     rism: 212003083
     url: http://digital.slub-dresden.de/ppn323415369
-github: tuma-sonata
+    principal: true
 imslp: Trio_Sonata_in_C_minor_(Tůma%2C_František_Ignác_Antonín)
-notes:

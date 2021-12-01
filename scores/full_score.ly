@@ -1,19 +1,16 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      title = "S O N A T A"
+    \section "Sonata"
+    \addTocEntry
+    \paper {
+      systems-per-page = #4
+      indent = 2\cm
     }
-    \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
@@ -31,7 +28,7 @@
           \new Staff {
             \set Staff.instrumentName = "Basso"
             % \transpose c c,
-            \Bassi
+            \BassoContinuo
           }
         >>
         \new FiguredBass { \BassFigures }
