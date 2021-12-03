@@ -1,13 +1,17 @@
-composer: Tůma, František Ignác Antonín
+composer:
+  last: Tůma
+  first: František Ignác Antonín
 title: Sonata in C dorian
 genre: sonata
 scoring: 2 vl, bc
+license: cc-by-sa-4.0
 sources:
   B1:
     siglum: D-Dl
     shelfmark: Mus.2968-N-1
     date: 1725–1745
     rism: 212003083
-    url: http://digital.slub-dresden.de/ppn323415369
+    url: https://digital.slub-dresden.de/ppn323415369
+    license: public domain
     principal: true
 imslp: Trio_Sonata_in_C_minor_(Tůma%2C_František_Ignác_Antonín)
